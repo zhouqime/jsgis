@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <title>denauly</title>
+    <script type="text/javascript" src="Tin.js"></script>
+    <script type="text/javascript" src="event.js"></script>
+</head>
+<body>
+
+<div id="canvasDiv">
+</div>
+
+<button id="bt_build" onclick="build()">build</button>
+<button id="bt_random" onclick="randomNode()">random</button>
+<input type="text" id="lb_count" value="1000"  />
+<button id="bt_clear" onclick="tin.Clear();drawTin();">clear</button>
+<input type="text" id="lb_info" readonly style="width:500px" />
+<a>zhouqi 2012</a>
+<script type="text/javascript">
+    document.onload = setTimeout(load(),200);
+</script>
+
+</body>
+</html>
